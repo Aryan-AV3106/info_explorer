@@ -1,0 +1,4 @@
+Weather in Alaska:
+ Temperature : 18.39
+ Humidity : 53
+ Condition : light rain
