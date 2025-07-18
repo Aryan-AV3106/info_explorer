@@ -1,55 +1,62 @@
-# 🌐 Info Explorer
+# 🌐 Info Explorer – Python CLI Project
 
-A simple Python command-line tool I built as a beginner to explore live data using real-world APIs!  
-This is one of my first hands-on projects using `urllib`, JSON, and file handling in Python.
+Info Explorer is a simple Python project I built to practice working with real-world data using public APIs. It’s a command-line app where you can:
 
----
+- Check the weather in any city 🌦️
+- Get details about any country 🌍
+- View NASA’s Astronomy Picture of the Day 🚀
 
-## 🚀 What You Can Do
-
-1. ☁️ **Check City Weather**  
-   Enter any city and get its current temperature, humidity, and weather condition (powered by OpenWeatherMap API).
-
-2. 🌍 **Get Country Info**  
-   Type a country name to fetch its capital, population, and region (using REST Countries API).
-
-3. 🌌 **View NASA Astronomy Picture of the Day**  
-   See NASA’s featured photo of the day with a short explanation (via NASA APOD API).
+I also added a basic database to keep track of what I searched, so I can view it later.
 
 ---
 
-## 💡 What I Learned
+## 📌 What I Used
 
-- How to fetch and read data from **public APIs** using `urllib`
-- How to parse **JSON responses** and extract specific information
-- How to handle errors and edge cases when working with APIs
-- Writing outputs to a `.txt` file
-- Structuring a basic **menu-driven CLI program**
-
----
-
-## 📂 Files Included
-
-- `Info_explorer.py` → Main Python script  
-- `sample_output.txt` → Output file storing user-requested data  
-- `.gitignore` → To avoid pushing unnecessary files  
-- `README.md` → This file!
+- **Python** (basics, classes, functions)
+- **APIs** (OpenWeatherMap, RESTCountries, NASA APOD)
+- **SQLite** (to save weather, country, and NASA logs)
+- **`.env` file** (to keep my API keys safe)
 
 ---
 
-## 🚧 Still Learning!
+## 🧪 How It Works
 
-This was a fun beginner project that made me more confident with live data and building small tools.  
-I’m excited to keep learning and improving — any feedback is welcome! 🙌
+When you run the app, it shows you a simple menu:
+
+🌐 Info Explorer Menu:
+ 1. Check City Weather
+ 2. Get Country Info
+ 3. View NASA Astronomy Picture 
+ 4. View Previous Data
+ 5.Exit
+
+Please Enter Your Choice :     
+
+
+You can type the number, and it will ask you for a city or country, then show results from the internet. Everything gets saved in a small local database.
 
 ---
 
-## 🔗 APIs Used
+## 🚀 Setup
 
-- [🌦 OpenWeatherMap](https://openweathermap.org/api)  
-- [🌍 REST Countries](https://restcountries.com/)  
-- [🌌 NASA APOD](https://api.nasa.gov/)
+1. Clone or download this project
+2. Install Python (if you don’t have it)
+3. Create a `.env` file like this:
+    WEATHER_API_KEY=your_openweathermap_key
+    NASA_API_KEY=your_nasa_api_key
 
----
+ 
+4. Run the project:
 
-### 🙏 Thanks for checking it out!
+```bash
+python main.py
+
+🙋‍♂️ Why I Made This
+- As a CS student learning Python, I wanted to build something practical. This project helped me understand:
+- How to work with external APIs
+- How to store and retrieve data with SQLite
+- How to organize Python code using multiple files and classes
+
+✍️ Made by Aryan Vakharia
+Student at University at Albany
+Learning Python | Exploring APIs | Aspiring ML Engineer

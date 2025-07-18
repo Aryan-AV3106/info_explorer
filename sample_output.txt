@@ -1,4 +1,4 @@
-Weather in Alaska:
- Temperature : 18.39
- Humidity : 53
- Condition : light rain
+Weather in Albany:
+ Temperature : 26.69
+ Humidity : 71
+ Condition : broken clouds
